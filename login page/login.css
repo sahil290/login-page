@@ -20,20 +20,9 @@ body {
   background: #292828;
   box-shadow: inset 20px 20px 60px #181717, inset -20px -20px 60px #070707;
 }
-.heading {
-  position: absolute;
-  top: 15px;
-  left: 20px;
-  font-weight: 600;
-  font-size: 25px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 700;
-  color: rgb(11, 166, 228);
-}
 h2.some-text {
   position: absolute;
   top: 60px;
-  left: 50px;
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
@@ -42,13 +31,14 @@ h2.some-text {
 .fa-user {
   position: absolute;
   font-size: 25px;
-  color: #fff;
+  color: rgb(11, 166, 228);
   top: 120px;
   left: 20px;
 }
 .email {
   position: absolute;
   height: 30px;
+  width: 220px;
   top: 120px;
   left: 50px;
   border: 1px solid rgb(79, 113, 114);
@@ -64,31 +54,31 @@ input::placeholder {
 .fa-lock {
   position: absolute;
   font-size: 25px;
-  color: #fff;
+  color: rgb(11, 166, 228);
   top: 170px;
   left: 20px;
 }
 .password {
   position: absolute;
+  width: 220px;
+  left: 50px;
   height: 30px;
   top: 170px;
-  left: 50px;
   border: 1px solid rgb(79, 113, 114);
 }
 .forgot-password {
   position: absolute;
-  left: 50px;
   top: 210px;
   text-decoration: underline;
 }
 .btn-primary {
   position: absolute;
   top: 250px;
-  left: 50px;
+  font-size: 18px;
+  font-weight: 600;
 }
 p.helping-text-here {
   position: absolute;
-  left: 50px;
   top: 300px;
   color: #fff;
 }
@@ -96,11 +86,11 @@ span {
   text-decoration: underline rgb(11, 166, 228);
 }
 .heading:hover {
-  color: #fff;
+  color: rgb(243, 10, 212);
 }
 .some-text:hover {
-  color: #fff;
+  color: rgb(243, 10, 212);
 }
 i:hover {
-  color: rgb(11, 166, 228);
+  color: rgb(243, 10, 212);
 }
